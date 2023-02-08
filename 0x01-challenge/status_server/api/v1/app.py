@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Web server 
+
 """
 from api.v1.views import app_views
 from flask import Flask, jsonify, make_response
@@ -16,5 +17,6 @@ def not_found(error):
 
 
 if __name__ == "__main__":
+
     # python -m api.v1.app 
-    app.run(host="3.85.136.30", port=5000)
+    app.run(host="100.24.74.197", port=5000)
